@@ -5,8 +5,9 @@
 
 //Canvas alapok
     var canvas = document.getElementById('canvas');
+    //console.log(canvas);
     var ctx = canvas.getContext('2d');
     ctx.fillStyle = '#ff0000';
     ctx.fillRect(10,10,200,100);
 
-    //console.log(canvas);
+    
