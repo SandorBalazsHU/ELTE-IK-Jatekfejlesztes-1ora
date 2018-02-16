@@ -1,3 +1,4 @@
 # ELTE IK Játékfejlesztés speci
 ## 1. óra
-## Javascript alapok
+### Javascript alapok
+### Canvas alapok
