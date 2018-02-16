@@ -2,3 +2,5 @@
 ## 1. óra
 #### - Javascript alapok
 #### - Canvas alapok
+#### - Game Loop
+#### - Anlimáció
