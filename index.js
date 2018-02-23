@@ -57,7 +57,7 @@
 
         ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
         ctx.fillStyle = '#ff0000';
-        ctx.fillRect(x,x,rectWidth,rectHeight);
+        ctx.fillRect(x,y,rectWidth,rectHeight);
     }, 1000/60);
 
     //nvjs, electron, apache cordova
