@@ -47,15 +47,15 @@
         x+=xs;
         y+=ys;
 
-        if(x<0 || x>canvas.clientWidth - rectWidth){
+        if(x<0 || x>canvas.width - rectWidth){
             xs*=-1;
         }
 
-        if(y<0 || y>canvas.clientHeight - rectHeight){
+        if(y<0 || y>canvas.height - rectHeight){
             ys*=-1;
         }
 
-        ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = '#ff0000';
         ctx.fillRect(x,y,rectWidth,rectHeight);
     }, 1000/60);
